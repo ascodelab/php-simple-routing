@@ -3,7 +3,8 @@
 ###### Installation
   - Download or clone the repository
   - Put inside web accessible directory ( ex. /var/www/html )
-  - Import usrt.sql file
+  - Create a databse
+  - Import collection.sql file
   - Edit /src/config/config.php and set the database information
 
 ###### Technology Used
