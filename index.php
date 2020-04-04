@@ -4,6 +4,8 @@
 	ini_set("display_errors",True);
 	//Autoloading
 	require_once('vendor/autoload.php');
-	require_once('usrt.php');
+	// rquet uri
+	$request = $_SERVER['REQUEST_URI'];
+	require_once('routes.php');
 
 ?>

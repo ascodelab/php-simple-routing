@@ -1,13 +1,13 @@
 <?php
-namespace Usrt\config;
+namespace Blog\config;
 class Config{
 	// Define settings
 	protected $config=[
-		'hosturl'=>'localhost/usrt',
+		'hosturl'=>'localhost:8000',
 		'database'=>[
 			'host'=>'localhost',
-			'user'=>'root',
-			'password'=>'password',
+			'user'=>'anil',
+			'password'=>'123456',
 			'dbname'=>'usrt'
 		]
 	 ];
